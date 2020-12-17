@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libcmake.a CMakeFiles/cmake.dir/cmake.cpp.obj
+C:\MinGW\bin\ranlib.exe libcmake.a
