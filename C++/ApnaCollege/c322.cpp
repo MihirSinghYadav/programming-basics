@@ -8,7 +8,7 @@ int main()
     cin >> n1 >> n2;
 
     char op;
-    cout << "input an operator";
+    cout << "input an operator: ";
     cin >> op;
 
     switch (op)

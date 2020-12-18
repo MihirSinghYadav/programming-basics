@@ -3,7 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "F:\\programming-basics\\C++\\"
+                "F:\\programming-basics\\C++\\",
+                "F:\\programming-basics\\C\\Program C"
             ],
             "defines": [
                 "_DEBUG",

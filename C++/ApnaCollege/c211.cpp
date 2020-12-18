@@ -19,7 +19,7 @@ int main()
     cout << "size of bool " << sizeof(e) << endl;
 
     short int si;
-    long int li;
+    long long int li;
     cout << "size of shortint " << sizeof(si) << endl;
     cout << "size of longint " << sizeof(li) << endl;
 

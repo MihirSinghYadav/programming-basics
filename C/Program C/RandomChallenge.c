@@ -3,13 +3,13 @@
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
-
+#include <time.h>
 int main()
 {
 
     /*user rolls 3 dice print out their total to them dice a +dice b and + dice c
-   after it get the sum user look at it and then guesses if the next roll is going to be higher
-   if it is they will press h and press enter  l if it is lower and s if it is the same press enter
+    after it get the sum user look at it and then guesses if the next roll is going to be higher
+    if it is they will press h and press enter  l if it is lower and s if it is the same press enter
     roll again if the is  guess right print out good job if wrong you suck */
 
     int dice1;
@@ -46,12 +46,12 @@ int main()
         }
         if (sum1 < sum)
         {
-            printf("You didnt guess right the correct guess was lower\n");
+            printf("You didn't guess right the correct guess was lower\n");
         }
 
         if (sum1 == sum)
         {
-            printf("You didnt guess right the correct guess was the same \n");
+            printf("You didn't guess right the correct guess was the same \n");
         }
         break;
 
@@ -63,12 +63,12 @@ int main()
         }
         if (sum1 > sum)
         {
-            printf("You didnt guess right the correct guess was higher\n");
+            printf("You didn't guess right the correct guess was higher\n");
         }
 
         if (sum1 == sum)
         {
-            printf("You didnt guess right the correct guess was the same\n");
+            printf("You didn't guess right the correct guess was the same\n");
         }
 
         break;
@@ -80,18 +80,18 @@ int main()
         }
         if (sum1 < sum)
         {
-            printf("You didnt guess right the correct guess was lower\n");
+            printf("You didn't guess right the correct guess was lower\n");
         }
 
         if (sum1 > sum)
         {
-            printf("You didnt guess right the correct guess was higher\n");
+            printf("You didn't guess right the correct guess was higher\n");
         }
 
         break;
 
     default:
-        printf("you suck you didnt enter (h/l/s) \n");
+        printf("you suck you didn't enter (h/l/s) \n");
     }
 
     printf("\n The first Roll sum: %d and second rolled sum : %d \n", sum, sum1);
