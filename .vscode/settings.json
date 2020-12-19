@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "ostream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "cmath": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled",
     "cSpell.words": [
