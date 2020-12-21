@@ -13,9 +13,13 @@
         "bptr",
         "kadane",
         "kadane's",
-        "maxst"
+        "maxst",
+        "mihir",
+        "stoi",
+        "yadav"
     ],
     "cSpell.ignoreWords": [
         "time"
-    ]
+    ],
+    "python.pythonPath": "C:\\Users\\mihir\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
 }
