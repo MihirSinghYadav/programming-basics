@@ -1,0 +1,88 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "MinGW Makefiles"
+		},
+		"paths" : 
+		{
+			"cmake" : "F:/Visual Studio Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
+			"cpack" : "F:/Visual Studio Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cpack.exe",
+			"ctest" : "F:/Visual Studio Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ctest.exe",
+			"root" : "F:/Visual Studio Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.18"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 18,
+			"patch" : 20081302,
+			"string" : "3.18.20081302-MSVC_2",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+			"jsonFile" : "codemodel-v2-9cd8009e49322436cf3f.json",
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 1
+			}
+		},
+		{
+			"jsonFile" : "cache-v2-7401163fa27c2af2fbe1.json",
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"client-vscode" : 
+		{
+			"query.json" : 
+			{
+				"requests" : 
+				[
+					{
+						"kind" : "cache",
+						"version" : 2
+					},
+					{
+						"kind" : "codemodel",
+						"version" : 2
+					}
+				],
+				"responses" : 
+				[
+					{
+						"jsonFile" : "cache-v2-7401163fa27c2af2fbe1.json",
+						"kind" : "cache",
+						"version" : 
+						{
+							"major" : 2,
+							"minor" : 0
+						}
+					},
+					{
+						"jsonFile" : "codemodel-v2-9cd8009e49322436cf3f.json",
+						"kind" : "codemodel",
+						"version" : 
+						{
+							"major" : 2,
+							"minor" : 1
+						}
+					}
+				]
+			}
+		}
+	}
+}

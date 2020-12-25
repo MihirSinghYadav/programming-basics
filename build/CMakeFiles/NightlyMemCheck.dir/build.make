@@ -52,10 +52,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe"
+CMAKE_COMMAND = "F:\Visual Studio Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f
+RM = "F:\Visual Studio Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = F:\programming-basics\build
 include CMakeFiles/NightlyMemCheck.dir/progress.make
 
 CMakeFiles/NightlyMemCheck:
-	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\ctest.exe" -D NightlyMemCheck
+	"F:\Visual Studio Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\ctest.exe" -D NightlyMemCheck
 
 NightlyMemCheck: CMakeFiles/NightlyMemCheck
 NightlyMemCheck: CMakeFiles/NightlyMemCheck.dir/build.make
