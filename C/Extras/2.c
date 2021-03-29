@@ -1,6 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    char ch = 'A';
-    printf("\n %c \n %3c \n %5c", ch, ch, ch);
+    char str[] = "Good Morning";
+    printf("\n %s", str);
+    printf("\n %20s", str);
+    printf("\n %20.10s", str);
+    printf("\n %.7s", str);
+    printf("\n %-20.10s", str);
+    printf("\n %7s", str);
 }
