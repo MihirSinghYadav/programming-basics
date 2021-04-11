@@ -1,16 +1,14 @@
 #include <stdio.h>
+#include <math.h>
 int main()
 {
-    int a, b, i;
-    scanf("%d", &a);
-    scanf("%d", &b);
-    if (a > b)
+    int t, a, b;
+    scanf("%d", &t);
+    while (t--)
     {
-        printf("%d", a - b);
-    }
-    else
-    {
-        printf("%d", a + b);
+        scanf("%d", &a);
+        b = sqrt(a);
+        printf("\n%d", b);
     }
     return 0;
 }
