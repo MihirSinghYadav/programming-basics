@@ -76,7 +76,8 @@
         "variant": "cpp",
         "stdlib.h": "c",
         "conio.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "131.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled",
     "cSpell.words": [
