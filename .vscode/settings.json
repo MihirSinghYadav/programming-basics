@@ -99,5 +99,8 @@
     "cSpell.ignoreWords": [
         "time"
     ],
-    "python.pythonPath": "C:\\Users\\mihir\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+    "python.pythonPath": "C:\\Users\\mihir\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "java.project.sourcePaths": [
+        "Java"
+    ]
 }
