@@ -85,7 +85,6 @@ void mul_matrix(int mat1[2][2], int mat2[2][2], int r, int c)
             for (k = 0; k < c; k++)
             {
                 res[i][j] = res[i][j] + mat1[i][k] * mat2[k][j];
-                //printf("\nvalue for res[%d][%d] = %d ", i, j, res[i][j]);
             }
         }
     }
