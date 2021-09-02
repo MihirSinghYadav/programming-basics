@@ -136,7 +136,7 @@ int main()
     cout << "\nEnter an arithmetic expression"
             "\nof the form 2 + 3 * 4 / 3 - 2."
             "\nNo number may have more than one digit."
-            "\nDon’t use any spaces or parentheses.";
+            "\nDon't use any spaces or parentheses.";
     do
     {
         cout << "\nEnter expresssion : ";
