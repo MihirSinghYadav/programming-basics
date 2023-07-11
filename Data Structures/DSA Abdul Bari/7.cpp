@@ -7,7 +7,6 @@ int main()
     int radius;
     float area_circle, circumference;
     int a, b, temp;
-//////////////////////////////////////////////////////////////////////////////////
     cout << "Enter base and height of triangle: ";
     cin >> base >> height;
     area_triangle = (base * height) / 2;

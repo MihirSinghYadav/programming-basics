@@ -1,28 +1,29 @@
+#include <stdio.h>
 #include <iostream>
 #include <string.h>
 #include <stdlib.h>
 using namespace std;
 const int SZ = 1000;
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-class verylong
+class very_long
 {
 private:
     char vlstr[SZ];
     int vlen;
-    verylong multdigit(const int) const;
-    verylong mult10(const verylong) const;
+    very_long multdigit(const int) const;
+    very_long mult10(const very_long) const;
 
 public:
-    verylong() : vlen(0)
+    very_long() : vlen(0)
     {
         vlstr[0] = '\0';
     }
-    verylong(const char s[SZ])
+    very_long(const char s[SZ])
     {
         strcpy(vlstr, s);
         vlen = strlen(s);
     }
-    verylong(const unsigned long n)
+    very_long(const unsigned long n)
     {
         ltoa(n, vlstr, 10);
         strrev(vlstr);
@@ -30,7 +31,7 @@ public:
     }
     void putvl() const;
     void getvl();
-    verylong operator+(const verylong);
-    verylong operator*(const verylong);
+    very_long operator+(const very_long);
+    very_long operator*(const very_long);
 };
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

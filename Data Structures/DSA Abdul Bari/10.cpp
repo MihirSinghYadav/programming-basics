@@ -14,7 +14,7 @@ public:
     void print()
     {
         for (int i = 0; i < s; i++)
-            cout << f << ' ';
+            std::cout << f << ' ';
     }
     void printnospace()
     {

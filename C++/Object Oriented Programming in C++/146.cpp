@@ -1,20 +1,20 @@
-#include "verylong.h" //header file for verylong
+#include "very_long.h" //header file for very_long
 //--------------------------------------------------------------
-void verylong::putvl() const //display verylong
+void very_long::putvl() const //display very_long
 {
     char temp[SZ];
     strcpy(temp, vlstr);  //make copy
     cout << strrev(temp); //reverse the copy
 } //and display it
 //--------------------------------------------------------------
-void verylong::getvl() //get verylong from user
+void very_long::getvl() //get very_long from user
 {
     cin >> vlstr;         //get string from user
     vlen = strlen(vlstr); //find its length
     strrev(vlstr);        //reverse it
 }
 //--------------------------------------------------------------
-verylong verylong::operator+(const verylong v) //add verylongs
+very_long very_long::operator+(const very_long v) //add very_longs
 {
     char temp[SZ];
     int j;
@@ -36,13 +36,13 @@ verylong verylong::operator+(const verylong v) //add verylongs
         temp[j] = digitsum + '0'; //insert char in string
     }
     if (carry == 1)      //if carry at end,
-        temp[j++] = '1'; //last digit is 1 temp[j] = '\0';        //terminate string return verylong(temp); //return temp verylong
+        temp[j++] = '1'; //last digit is 1 temp[j] = '\0';        //terminate string return very_long(temp); //return temp very_long
 }
 //--------------------------------------------------------------
-verylong verylong::operator*(const verylong v) //multiply
-{                                              //verylongs
-    verylong pprod;                            //product of one digit
-    verylong tempsum;                          //running total
+very_long very_long::operator*(const very_long v) //multiply
+{                                              //very_longs
+    very_long pprod;                            //product of one digit
+    very_long tempsum;                          //running total
     for (int j = 0; j < v.vlen; j++)           //for each digit in arg {
         int digit = v.vlstr[j] - '0';          //get the digit
     pprod = multdigit(digit);                  //multiply this by digit
@@ -51,19 +51,19 @@ verylong verylong::operator*(const verylong v) //multiply
     tempsum = tempsum + pprod;                 //add product to total }
     return tempsum;                            //return total of prods }
     //--------------------------------------------------------------
-    verylong verylong::mult10(const verylong v) const //multiply
+    very_long very_long::mult10(const very_long v) const //multiply
     {                                                 //arg by 10
         char temp[SZ];
         for (int j = v.vlen - 1; j >= 0; j--) //move digits one
             temp[j + 1] = v.vlstr[j];         // position higher
-        temp[0] = '0';                        //put zero on low end temp[v.vlen + 1] = '\0';              //terminate string return verylong(temp); //return result }
+        temp[0] = '0';                        //put zero on low end temp[v.vlen + 1] = '\0';              //terminate string return very_long(temp); //return result }
         //--------------------------------------------------------------
-        verylong verylong::multdigit(const int d2) const
-        {                  //multiply this verylong
+        very_long very_long::multdigit(const int d2) const
+        {                  //multiply this very_long
             char temp[SZ]; //by digit in argument
             int j, carry = 0;
             for (j = 0; j < vlen; j++)       //for each position
-            {                                // in this verylong
+            {                                // in this very_long
                 int d1 = vlstr[j] - '0';     //get digit from this
                 int digitprod = d1 * d2;     //multiply by that digit
                 digitprod += carry;          //add old carry
@@ -74,5 +74,5 @@ verylong verylong::operator*(const verylong v) //multiply
                 temp[j] = digitprod + '0';   //insert char in string }
                 if (carry != 0)              //if carry at end,
                     temp[j++] = carry + '0'; //it's last digit
-                temp[j] = '\0';              //terminate string return verylong(temp); //return verylong
+                temp[j] = '\0';              //terminate string return very_long(temp); //return very_long
             }
